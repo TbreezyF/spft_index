@@ -1,0 +1,22 @@
+{
+    "name": "sproft-media",
+    "version": "1.0.0",
+    "description": "Main webfront",
+    "main": "App.js",
+    "scripts": {
+        "start": "node App.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Digital",
+        "Agency"
+    ],
+    "author": "Sproft Media",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "dotenv": "^6.0.0",
+        "express": "^4.16.3",
+        "express-handlebars": "^3.0.0"
+    }
+}
