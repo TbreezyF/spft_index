@@ -1,9 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const path = require('path');
 
 router.get('/', (req, res) => {
-    res.status(200).render('index');
+    res.status(200).render('sproftmedia-index');
 });
 
 module.exports = router;
